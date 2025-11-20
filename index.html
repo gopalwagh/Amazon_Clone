@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="info">this was created by( <p>Gopal Wagh</p> )along with their learning</div>
     <header>
        <div class="navbar">
         <!-- div-1 => logo section-->
@@ -21,8 +22,8 @@
                 </div>
            </div>
         <!-- div-3 => search-section -->
-           <div class="nav-search">
-                <select class="search-select">
+           <div class="nav-search" >
+                <select class="search-select" id="search_select">
                     <option value="All">All</option>
                     <option value="Arts & crafts">Arts & crafts</option>
                     <option value="Automotive">Automotive</option>
@@ -50,7 +51,8 @@
                     <option value="Video Game">Video Game</option>
                     <option value="Women's Fashion">Women's Fashion</option>
                 </select>
-                <input type="text"  class="input" placeholder="search Amazon">
+                <input type="text"  class="input" id="search_amazon" placeholder="search Amazon">
+                <span id="widthCalculator"></span>
                 <div class="search-icon">
                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
